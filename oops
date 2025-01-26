@@ -1,0 +1,45 @@
+class child():
+    def __init__(self,name,age,country,sport,hair,food,parents,siblings,gender):
+        self.name=name
+        self.age=age
+        self.country=country
+        self.sport=sport
+        self.hair=hair
+        self.food=food
+        self.parents=parents
+        self.siblings=siblings
+        self.gender=gender
+
+    def details(self):
+        print(f"name of the child is {self.name}")
+        print(f"the age of the child is {self.age}")
+        print(f"the gender of the child is {self.gender}")
+        print(f"the country of were the child lives is {self.country}")
+        print(f"the childs favourite sport is {self.sport}")
+        print(f"the colour of the child hair is {self.hair}")
+        print(f"the favourte food of the childs is {self.food}")
+        print(f"the child has {self.parent} parents")
+        print(f"the amount of sibling the child has is {self.siblings}")
+
+
+n=child("ted",7,"brazil","football","black","tacos",2,2,"male")
+n.details()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
